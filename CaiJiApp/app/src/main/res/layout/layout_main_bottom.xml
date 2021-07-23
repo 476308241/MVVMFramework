@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_bottom_tab"
+    android:layout_width="match_parent"
+    android:layout_height="54dp"
+    android:background="@color/white_color"
+    android:layout_alignParentBottom="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:baselineAligned="true">
+
+    <RelativeLayout
+        android:id="@+id/rl_map"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1.0">
+
+        <ImageView
+            android:id="@+id/iv_map"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/main_map_off"
+            android:contentDescription="@null" />
+
+
+        <TextView
+            android:id="@+id/tv_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_2"
+            android:layout_below="@id/iv_map"
+            android:layout_centerHorizontal="true"
+            android:text="地图"
+            android:textColor="@color/bottomtab_normal"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_task"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1.0">
+
+        <ImageView
+            android:id="@+id/iv_task"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/main_tab_task_off"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:id="@+id/tv_task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_2"
+            android:layout_below="@id/iv_task"
+            android:layout_centerHorizontal="true"
+            android:text="任务"
+            android:textColor="@color/bottomtab_normal"
+            android:textSize="10sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_search"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1.0">
+
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/main_search_off"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:id="@+id/tv_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_2"
+            android:layout_below="@id/iv_search"
+            android:layout_centerHorizontal="true"
+            android:text="搜索"
+            android:textColor="@color/bottomtab_normal"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+</LinearLayout>

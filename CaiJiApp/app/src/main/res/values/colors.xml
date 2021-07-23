@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#196EFF</color>
+    <color name="colorPrimaryDark">#196EFF</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--<color name="bottomtab_normal">#AFAFAF</color>-->
+    <color name="bottomtab_press">#58A5FB</color>
+    <color name="bottomtab_normal">#555555</color>
+    <color name="white_color">#ffffff</color>
+    <color name="black_color">#000000</color>
+    <color name="yellow_color">#ffcc28</color>
+    <color name="bg_activity_normal_color">#ffffff</color>
+    <color name="bg_activity_gray_color">#eeeeee</color>
+    <color name="text_gray_color">#929292</color>
+    <color name="statusbar_bg_login_color">#22A5DD</color>
+    <color name="light_line">#EEEEEE</color>
+    <color name="bg_tab4_left_color">#f5f5f5</color>
+    <color name="login_statusbar_color">#196EFF</color>
+
+    <color name="systemBar_color">#196EFF</color><!--导航栏背景颜色 -->
+    <color name="titleBar_normal_color">#196EFF</color><!--标题栏背景颜色 -->
+    <color name="statusbar_transparent_color">#d9d9d9</color><!--导航栏透明颜色 -->
+
+    <color name="text_title_color">#333333</color>
+    <color name="text_content_color">#999999</color>
+    <color name="border_color">#DDDDDD</color>
+    <color name="text_date_or_num_color">#A1BAE6</color>
+    <color name="text_blue_color">#196EFF</color>
+    <color name="text1_color">#6D6D6D</color>
+    <color name="red_color">#D92C2E</color>
+    <color name="color_00">#8A000000</color>
+    <color name="blue_light">#0a96ff</color>
+    <color name="textColor_actionsheet_title">#8f8f8f</color>
+    <color name="line_color">#EEEEEE</color>
+    <color name="base">#3686e0</color>
+    <color name="color_f6">#f6f6f6</color>
+    <color name="top_alert_dialog_color">#ff6600</color>
+
+
+</resources>

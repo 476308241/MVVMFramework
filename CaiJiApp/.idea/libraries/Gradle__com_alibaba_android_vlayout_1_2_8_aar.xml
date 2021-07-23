@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.alibaba.android:vlayout:1.2.8@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fe43c6d4fcf9db4bd9597bbe944f966f/jetified-vlayout-1.2.8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fe43c6d4fcf9db4bd9597bbe944f966f/jetified-vlayout-1.2.8/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fe43c6d4fcf9db4bd9597bbe944f966f/jetified-vlayout-1.2.8/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba.android/vlayout/1.2.8/d34ff9432ed29fa1032dc249eb8b609ea44180c7/vlayout-1.2.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

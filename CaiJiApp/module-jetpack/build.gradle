@@ -1,0 +1,11 @@
+if (isRunModule.toBoolean()) {
+    apply plugin: 'com.android.application'
+}else {
+    apply plugin: 'com.android.library'
+}
+apply from: rootProject.file('arouter-setting.gradle')
+
+dependencies {
+
+    implementation project(path: ':comm_base')
+}

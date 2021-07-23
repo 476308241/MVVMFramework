@@ -1,0 +1,14 @@
+<resources>
+
+
+    <!--会话组件-->
+    <string name="aurora_symbol_second">\"</string>
+    <string name="scroll_up_cancel_send">手指上滑,取消发送</string>
+    <string name="unpress_cancel_send">松开手指，取消发送</string>
+    <string name="record_voice_time_short">录音时间过短</string>
+    <string name="btn_voice_unrecorded">按住 说话</string>
+    <string name="btn_voice_recording">松开 结束</string>
+    <string name="aurora_avatar_desc">user avatar</string>
+    <string name="app_confirm_exit_app">确定退出应用吗？</string>
+
+</resources>

@@ -1,0 +1,29 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/WellingFragment">
+
+    <fragment
+        android:id="@+id/WellingFragment"
+        android:name="com.finest.caijiapp.ui.WellingFragment"
+        tools:layout="@layout/fragment_weling"/>
+    <fragment
+        android:id="@+id/LoginFragment"
+        android:name="com.finest.caijiapp.ui.LoginFragment"
+        tools:layout="@layout/fragment_login"/>
+    <fragment
+        android:id="@+id/CrashListFragment"
+        android:name="com.finest.caijiapp.ui.crashmsg.CrashListFragment"
+        tools:layout="@layout/fragment_crash_list"/>
+    <fragment
+        android:id="@+id/CrashDetailFragment"
+        android:name="com.finest.caijiapp.ui.crashmsg.CrashDetailFragment"
+        tools:layout="@layout/fragment_crash_detail"/>
+
+    <fragment
+        android:id="@+id/MainTabFragment"
+        android:name="com.finest.caijiapp.ui.MainTabFragment"
+        tools:layout="@layout/fragment_main_tab"/>
+
+</navigation>

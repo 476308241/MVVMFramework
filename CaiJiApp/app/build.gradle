@@ -1,0 +1,25 @@
+apply plugin: 'com.android.application'
+apply from: rootProject.file('arouter-setting.gradle')
+android {
+
+    defaultConfig {
+        applicationId "com.finest.caijiapp"
+
+    }
+
+}
+
+dependencies {
+
+    implementation project(path: ':chatlibrary')
+    implementation project(path: ':comm_base')
+    if (!isRunModule.toBoolean()){
+        implementation project(path: ':module-chat')
+        implementation project(path: ':module-task')
+        implementation project(path: ':module-jetpack')
+        implementation project(path: ':module-search')
+    }
+
+//    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.3'
+
+}

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CaiJiApp</string>
+    <string name="app_permission">拍照权限、定位权限、存储权限为必选项，全部开通才可以正常使用APP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

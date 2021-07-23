@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/aurora_msgitem_receive_style">
+
+    <com.finest.chatlibrary.view.RoundTextView
+        android:id="@+id/aurora_tv_msgitem_date"
+        style="@style/aurora_msgitem_date_style" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp">
+
+        <com.finest.chatlibrary.view.RoundImageView
+            android:id="@+id/aurora_iv_msgitem_avatar"
+            style="@style/aurora_msgitem_receiver_avatar_style"
+            android:contentDescription="@string/aurora_avatar_desc" />
+
+        <TextView
+            android:id="@+id/aurora_tv_msgitem_receiver_display_name"
+            style="@style/aurora_msgitem_receiver_display_name_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@id/aurora_iv_msgitem_avatar" />
+
+        <TextView
+            android:id="@+id/aurora_iv_msgitem_file"
+            style="@style/aurora_msgitem_msg_txt_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/aurora_tv_msgitem_receiver_display_name"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@id/aurora_iv_msgitem_avatar"
+            android:adjustViewBounds="true"
+            android:background="@drawable/shape_grey_border_white_bg"
+            android:drawableRight="@drawable/ic_file"
+            android:drawablePadding="@dimen/dp_4"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="5dp"
+            android:maxWidth="230dp"
+            android:padding="@dimen/dp_10"
+            android:src="@mipmap/aurora_picture_not_found"
+            tools:text="姥姥的故事.txt" />
+
+        <ProgressBar
+            android:id="@+id/aurora_pb_msgitem_sending"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@+id/aurora_iv_msgitem_file"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/aurora_ib_msgitem_resend"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@+id/aurora_iv_msgitem_file"
+            android:background="@mipmap/aurora_send_msg_error"
+            android:scaleType="fitCenter"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+</LinearLayout>

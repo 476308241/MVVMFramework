@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CaiJiApp.iml" filepath="$PROJECT_DIR$/CaiJiApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CaiJiApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CaiJiApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chatlibrary/CaiJiApp.chatlibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/chatlibrary/CaiJiApp.chatlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/comm_base/CaiJiApp.comm_base.iml" filepath="$PROJECT_DIR$/.idea/modules/comm_base/CaiJiApp.comm_base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/comm_net/CaiJiApp.comm_net.iml" filepath="$PROJECT_DIR$/.idea/modules/comm_net/CaiJiApp.comm_net.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module-chat/CaiJiApp.module-chat.iml" filepath="$PROJECT_DIR$/.idea/modules/module-chat/CaiJiApp.module-chat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module-jetpack/CaiJiApp.module-jetpack.iml" filepath="$PROJECT_DIR$/.idea/modules/module-jetpack/CaiJiApp.module-jetpack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module-search/CaiJiApp.module-search.iml" filepath="$PROJECT_DIR$/.idea/modules/module-search/CaiJiApp.module-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module-task/CaiJiApp.module-task.iml" filepath="$PROJECT_DIR$/.idea/modules/module-task/CaiJiApp.module-task.iml" />
+    </modules>
+  </component>
+</project>

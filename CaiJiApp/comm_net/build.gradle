@@ -1,0 +1,17 @@
+apply plugin: 'com.android.library'
+apply from: rootProject.file('arouter-setting.gradle')
+
+dependencies {
+
+    // 网络请求依赖库
+    api "io.reactivex.rxjava2:rxjava:$rxjavaVersion"
+    api "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    api "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
+    api "com.squareup.retrofit2:converter-scalars:$retrofitVersion"
+    api "com.squareup.okhttp3:okhttp:$okhttpVersion"
+    api "com.squareup.okhttp3:logging-interceptor:$okhttpVersion"
+
+    api 'com.alibaba:fastjson:1.2.76'
+    api 'com.jakewharton.timber:timber:4.7.1'
+
+}

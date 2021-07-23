@@ -1,0 +1,52 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_jetpack"
+    app:startDestination="@id/DataBindingFragment"
+    >
+
+
+    <fragment
+        android:id="@+id/RoomFragment"
+        android:name="com.finest.jetpack.ui.jetpackdemo.RoomFragment"
+        tools:layout="@layout/fragment_room"/>
+    <fragment
+        android:id="@+id/WorkManagerFragment"
+        android:name="com.finest.jetpack.ui.jetpackdemo.WorkManagerFragment"
+        tools:layout="@layout/fragment_work_manager"/>
+    <fragment
+        android:id="@+id/LifecycleFragment"
+        android:name="com.finest.jetpack.ui.jetpackdemo.LifecycleFragment"
+        tools:layout="@layout/fragment_lifecycle"/>
+    <fragment
+        android:id="@+id/KotlinSuspendFragment"
+        android:name="com.finest.jetpack.ui.jetpackdemo.KotlinSuspendFragment"
+        tools:layout="@layout/fragment_kotlin_suspend"/>
+    <fragment
+        android:id="@+id/DaggerHiltFragment"
+        android:name="com.finest.jetpack.ui.jetpackdemo.DaggerHiltFragment"
+        tools:layout="@layout/fragment_daggerhilt"/>
+
+
+    <fragment
+        android:id="@+id/JetpackFragment"
+        android:name="com.finest.jetpack.ui.JetpackFragment"
+        tools:layout="@layout/fragment_jetpack"/>
+
+
+    <fragment
+        android:id="@+id/DataBindingFragment"
+        android:name="com.finest.jetpack.ui.jetpackdemo.DataBindingTestFragment"
+        tools:layout="@layout/fragment_databinding"/>
+
+
+
+    <fragment
+        android:id="@+id/ViewModelFragment"
+        android:name="com.finest.jetpack.ui.jetpackdemo.ViewModelFragment"
+        tools:layout="@layout/fragment_view_model"/>
+
+
+
+
+</navigation>

@@ -1,0 +1,21 @@
+if (isRunModule.toBoolean()) {
+    apply plugin: 'com.android.application'
+}else {
+    apply plugin: 'com.android.library'
+}
+apply from: rootProject.file('arouter-setting.gradle')
+
+if (isRunModule.toBoolean()){
+    android {
+        defaultConfig {
+            applicationId "com.finest.chatTest"
+        }
+    }
+}
+
+dependencies {
+
+    implementation project(path: ':chatlibrary')
+    implementation project(path: ':comm_base')
+
+}

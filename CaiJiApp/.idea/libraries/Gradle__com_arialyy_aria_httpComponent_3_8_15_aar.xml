@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.arialyy.aria:httpComponent:3.8.15@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5c2d54036f8cc1e0da62fb76e6cf43ce/jetified-httpComponent-3.8.15/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/88bc74c83ea66bbbefc6323b49807577/jetified-httpComponent-3.8.15/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5c2d54036f8cc1e0da62fb76e6cf43ce/jetified-httpComponent-3.8.15/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5c2d54036f8cc1e0da62fb76e6cf43ce/jetified-httpComponent-3.8.15/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.arialyy.aria/httpComponent/3.8.15/c5be6082ebf841313c6860ce949a794a70c9372e/httpComponent-3.8.15-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.arialyy.aria/httpComponent/3.8.15/a192e566ce19dda08e1854ad33b2fd0787993365/httpComponent-3.8.15-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

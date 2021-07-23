@@ -1,0 +1,16 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_task"
+    app:startDestination="@id/TaskFragment"
+    tools:ignore="MissingDefaultResource">
+
+
+    <fragment
+        android:id="@+id/TaskFragment"
+        android:name="com.finest.task.ui.TaskFragment"/>
+
+
+
+
+</navigation>

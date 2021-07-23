@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.finest.chat.viewmodel.BaseChatViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--内容-->
+        <LinearLayout
+            android:id="@+id/llContent"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.finest.chatlibrary.messages.MessageList
+                android:id="@+id/msg_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:avatarHeight="48dp"
+                app:avatarRadius="5dp"
+                app:avatarWidth="48dp"
+                app:bubbleMaxWidth="0.70"
+                app:dateBackgroundColor="@color/transparent"
+                app:dateTextColor="@color/gray"
+                app:dateTextSize="13sp"
+                app:receiveTextColor="#ffffff"
+                app:receiveTextSize="@dimen/message_list_receive_text"
+                app:sendTextColor="#7587A8"
+                app:sendTextSize="@dimen/message_list_send_text"
+                app:showReceiverDisplayName="true"
+                app:showSenderDisplayName="true" />
+        </LinearLayout>
+
+        <include
+            android:id="@+id/layout_input"
+            layout="@layout/dispatch_chat_input_item" />
+
+        <FrameLayout
+            android:id="@+id/flEmotionView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="300dp"
+            android:visibility="gone">
+
+            <!--其他功能-->
+            <com.finest.chatlibrary.view.PageMenuLayout
+                android:id="@+id/page_menu_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone" />
+        </FrameLayout>
+    </LinearLayout>
+</layout>

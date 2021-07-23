@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/inputView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/aurora_bg_input_default">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#cccccc"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_send_sound"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:padding="8dp"
+            android:src="@drawable/dispatch_cb_send_sound_select"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/aurora_et_chat_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dispatch_aurora_input_text_bg"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:maxLines="4"
+            android:minHeight="36dp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/aurora_chat_input_edit_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/iv_send_sound"
+            app:layout_constraintRight_toLeftOf="@+id/ll_right"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.finest.chatlibrary.view.AudioRecordButton
+            android:id="@+id/btn_voice_record"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:background="@drawable/dispatch_btn_voice_unrecorded"
+            android:gravity="center"
+            android:text="@string/btn_voice_unrecorded"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="14sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/iv_send_sound"
+            app:layout_constraintRight_toLeftOf="@+id/ll_right"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/ll_right"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/iv_more_menu"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:padding="8dp"
+                android:src="@mipmap/cb_choose_type"
+                app:layout_constraintLeft_toRightOf="@id/btn_voice_record"
+                app:layout_constraintRight_toLeftOf="@id/btn_aurora_send" />
+
+            <Button
+                android:id="@+id/btn_aurora_send"
+                android:layout_width="55dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_marginRight="@dimen/dp_10"
+                android:background="@drawable/btn_blue_selector"
+                android:text="发送"
+                android:textColor="@color/white_color"
+                android:textSize="14sp"
+                android:visibility="gone"
+                app:layout_constraintLeft_toRightOf="@id/iv_more_menu"
+                app:layout_constraintRight_toRightOf="parent" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#cccccc"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

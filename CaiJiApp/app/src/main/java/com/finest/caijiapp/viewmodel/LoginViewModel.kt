@@ -27,7 +27,6 @@ class LoginViewModel @ViewModelInject constructor(var loginRepository: LoginRepo
     var loginData = MutableLiveData<UIState<String>>()
     private var loginJob: Job? = null
 
-    @SuppressLint("CheckResult")
     fun login() {
         val isRemember =sharedPref.getBoolean(SPConfig.IS_REMEMBER_PSW, false)
 //       NetWorkManager.getRequest("http://113.108.133.227:28084").login(

@@ -33,7 +33,7 @@ class NetworkModule {
    @Singleton
    @Provides
    fun provideBaseUrlRequest(): HttpRequest {
-       return NetworkManager.getRequest(URLManager.BASE_URL)
+       return NetworkManager.getRequest()
    }
 
     @WarnUrlRequest
@@ -48,6 +48,6 @@ class NetworkModule {
     @Singleton
     @Provides
     fun provideBaseUrlRequestLong():HttpRequest{
-        return NetworkManager.getRequestLong(URLManager.BASE_URL)
+        return NetworkManager.getRequestLong()
     }
 }

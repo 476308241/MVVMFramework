@@ -22,19 +22,7 @@ class NetworkManager {
         //是否打印debug信息
         var isDebug = true
 
-
-        fun getBaseRequest(): HttpRequest {
-            val client = MyOkHttpClient.mInstance
-            // 初始化Retrofit
-            return Retrofit.Builder()
-                .client(client)
-                .baseUrl(URLManager.BASE_URL)
-                .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
-                .addConverterFactory(FastJsonConverterFactoryKt.create())
-                .build().create(HttpRequest::class.java)
-        }
-
-        fun getRequest(baseUrl: String): HttpRequest {
+        fun getRequest(baseUrl: String = URLManager.BASE_URL): HttpRequest {
             val client = MyOkHttpClient.mInstance
             // 初始化Retrofit
             return Retrofit.Builder()
@@ -45,7 +33,7 @@ class NetworkManager {
                 .build().create(HttpRequest::class.java)
         }
 
-        fun getRequestLong(baseUrl: String): HttpRequest {
+        fun getRequestLong(baseUrl: String = URLManager.BASE_URL): HttpRequest {
             val client = MyOkHttpClient.mInstance.newBuilder()
                 .connectTimeout(TIME_OUT_LONG.toLong(), TimeUnit.SECONDS)
                 .readTimeout(TIME_OUT_LONG.toLong(), TimeUnit.SECONDS)

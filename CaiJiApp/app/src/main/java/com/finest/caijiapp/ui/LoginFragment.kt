@@ -61,7 +61,7 @@ class LoginFragment : BaseMVVMFragment() {
                 SPConfig.CRASH_MSG_LIST,
                 CrashMsgBean::class.java) as ArrayList
             if (crashList.size==0){
-                showToast("没有崩溃信息")
+                showToast("没有崩溃信息2")
             }else{
                 navigateTo(R.id.CrashListFragment)
             }
